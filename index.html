@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>PF3: Introduction to Inverse Trig Functions — Student Resource Hub</title>
+<title>PF3: Inverse Trigonometric Functions — Student Resource Hub</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
@@ -529,9 +529,9 @@
 <header class="page-header" role="banner">
   <div class="header-inner">
     <p class="section-label" aria-hidden="true">Section PF3</p>
-    <h1>Introduction to Inverse Trig Functions</h1>
+    <h1>Inverse Trigonometric Functions</h1>
     <p class="learning-objective">
-      <strong>Learning Objective:</strong> Determine the inverse sine, cosine, and tangent values; graph inverse trig functions and determine the limitations on the domain and range.
+      <strong>Learning Objective:</strong> Determine the inverse sine, cosine, and tangent values; graph inverse trigonometric functions and determine the limitations on the domain and range.
     </p>
   </div>
 </header>
@@ -551,7 +551,7 @@
   </div>
 
   <div class="tab-panel" id="panel-faq" role="tabpanel" aria-labelledby="tab-faq">
-    <p class="section-intro">Common questions about these sections, organized by type. Click any question to reveal the answer.</p>
+    <p class="section-intro">Common questions about this section, organized by type. Click any question to reveal the answer.</p>
 
     <section class="faq-category" aria-label="Conceptual clarity questions">
       <div class="category-header">
@@ -601,7 +601,7 @@
 <footer class="page-footer" role="contentinfo">
   <div class="footer-inner">
     <h2>Sources &amp; Credits</h2>
-    <p>Content on this page adapts definitions and examples from <a href="https://github.com/TeamBasedInquiryLearning/library" target="_blank" rel="noopener noreferrer">TBIL Precalculus</a> by Steven Clontz and Drew Lewis, used under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a>. Video content curated from <a href="https://www.mathispower4u.com" target="_blank" rel="noopener noreferrer">Mathispower4u</a> (James Sousa).</p>
+    <p>Content on this page adapts definitions and examples from <a href="https://github.com/TeamBasedInquiryLearning" target="_blank" rel="noopener noreferrer">TBIL Precalculus</a>, used under Creative Commons licensing. Video content curated from <a href="https://www.mathispower4u.com" target="_blank" rel="noopener noreferrer">Mathispower4u</a> (James Sousa).</p>
     <p><strong>AI use statement:</strong> FAQ text, diagrams, and this page's structure were drafted using Claude (Anthropic) based on TBIL source content, with guidance, review, and editing by Dr. Marty Romero.</p>
     <p>This page is licensed <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a> and freely available for reuse and adaptation under the same terms.</p>
   </div>
@@ -711,10 +711,10 @@ function renderVideos() {
   }
 
   const categoryLabels = {
-    'tangent-cotangent': { title: 'Tangent & Cotangent', desc: 'Start here — graphing transformed tangent and cotangent functions' },
-    'secant-cosecant': { title: 'Secant & Cosecant', desc: 'Graphing transformed secant and cosecant functions using their sine/cosine guide curve' }
+    'basic-evaluation': { title: 'Basic Evaluation', desc: 'Start here — evaluating inverse trig functions at special angles and by calculator' },
+    'compositions': { title: 'Compositions', desc: 'Evaluating a trig function composed with an inverse trig function' }
   };
-  const categoryOrder = ['tangent-cotangent', 'secant-cosecant'];
+  const categoryOrder = ['basic-evaluation', 'compositions'];
 
   categoryOrder.forEach(cat => {
     const vids = DATA.videos.filter(v => v.category === cat);
